@@ -1,0 +1,17 @@
+# Private financial data
+data/*
+!data/sample_transactions.csv
+
+# Generated outputs
+reports/
+figures/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Environment
+.env
+
