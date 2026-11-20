@@ -3,8 +3,12 @@ data/*
 !data/sample_transactions.csv
 
 # Generated outputs
-reports/
-figures/
+reports/*
+!reports/financial_report.html
+
+figures/*
+!figures/monthly_spending.png
+!figures/category_spending.png
 
 # Python
 __pycache__/
@@ -14,4 +18,3 @@ __pycache__/
 
 # Environment
 .env
-
